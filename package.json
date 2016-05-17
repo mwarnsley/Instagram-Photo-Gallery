@@ -1,0 +1,29 @@
+{
+  "name": "instagramphotogallery",
+  "version": "1.0.0",
+  "description": "Simple application allowing you to view the most popular photos on instagram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+    "dependencies": {
+        "body-parser": "*",
+        "cookie-parser": "*",
+        "debug": "*",
+        "express": "*",
+        "morgan": "*",
+        "bower": "*",
+        "method-override": "*"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwarnsley/Instagram-Photo-Gallery.git"
+  },
+  "author": "Marcus Warnsley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwarnsley/Instagram-Photo-Gallery/issues"
+  },
+  "homepage": "https://github.com/mwarnsley/Instagram-Photo-Gallery#readme"
+}
