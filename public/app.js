@@ -2,9 +2,10 @@ var app = angular.module('galPhoto', ['ngRoute'])
 
 //Configuring the routes
 .config(['$routeProvider', function($routeProvider){
-    .when('/gallery', {
-        templateUrl: 'views/gallery.view.html',
-        controller: 'GalleryCtrl'
-    })
-    .otherwise({ redirectTo: '/gallery'});
+    $routeProvider
+        .when('/gallery', {
+            templateUrl: 'views/gallery.view.html',
+            controller: 'GalleryCtrl'
+        })
+        .otherwise({ redirectTo: '/gallery'});
 }]);
