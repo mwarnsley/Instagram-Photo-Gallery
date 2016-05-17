@@ -1,4 +1,4 @@
-var app = angular.module('galPhoto', ['ngRoute'])
+var app = angular.module('galPhoto', ['ngRoute', 'ngResource'])
 
 //Configuring the routes
 .config(['$routeProvider', function($routeProvider){
